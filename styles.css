@@ -10,6 +10,7 @@ body{
 .container-2{
   margin-left: 90px;
   font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
 }
 .card-1{
   width: 520px;
@@ -30,6 +31,7 @@ body{
   padding-bottom: 20px;
   padding-top: 30px;
   position: relative;
+  margin-bottom: 120px;
 }
 .container-3{
   display: flex;
@@ -102,10 +104,10 @@ body{
   content:"";
    width: 0;
    height: 0;
-   border-top: 10px solid transparent;
-   border-bottom: 10px solid transparent;
+   border-top: 12px solid transparent;
+   border-bottom: 12px solid transparent;
    position: absolute;
-   border-left: 10px solid white;
+   border-left: 12px solid white;
    left: 540px;
    bottom: 195px;
 }
@@ -113,32 +115,30 @@ body{
   content:"";
    width: 0;
    height: 0;
-   border-top: 10px solid transparent;
-   border-bottom: 10px solid transparent;
+   border-top: 12px solid transparent;
+   border-bottom: 12px solid transparent;
    position: absolute;
-   border-left: 10px solid white;
+   border-left: 12px solid white;
    left: 535px;
-   bottom: 110px;
+   bottom: 130px;
 }
 .main-container::after{
     content:"";
     position: fixed;
     left: 50%;
     bottom: 2%;
-    transform: translateX(-50%);
     width: 7px;
     height: 100%;
-    /* border-radius: 15%; */
     background-color: #005A84;
 }
 .card-3::after{
   content:"";
    width: 0;
    height: 0;
-   border-top: 10px solid transparent;
-   border-bottom: 10px solid transparent;
+   border-top: 12px solid transparent;
+   border-bottom: 12px solid transparent;
    position: absolute;
-   border-right: 10px solid white;
+   border-right: 12px solid white;
    right: 520px;
    bottom: 310px;
 }
@@ -175,4 +175,30 @@ body{
 }
 .moreBtn:hover{
   opacity: .7;
+}
+#icon1{
+  position: absolute;
+   left: 49.5%;
+   opacity: 1;
+   z-index: 4;
+   color: white;
+   font-size: 22px;
+   top: 50px;
+}
+#icon2{
+  position: absolute;
+  font-size: 22px;
+  z-index: 4;
+  color: white;
+  right: 49.1%;
+  top: 49%;
+}
+#icon3{
+  z-index: 4;
+  position: absolute;
+  opacity: 1;
+  color: white;
+  font-size: 22px;
+  top: 110%;
+  left: 49.5%;
 }
