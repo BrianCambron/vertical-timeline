@@ -1,20 +1,23 @@
-body{
+body {
   background-color: #A9A9A9;
 }
-.container-1{
+
+.container-1 {
   display: flex;
   flex-direction: column;
   margin-left: 90px;
   font-family: 'Roboto', sans-serif;
 }
-.container-2{
+
+.container-2 {
   margin-left: 90px;
   font-family: 'Roboto', sans-serif;
   margin-top: 40px;
 }
-.card-1{
+
+.card-1 {
   width: 520px;
-  box-shadow:20px 20px 50px grey;
+  box-shadow: 20px 20px 50px grey;
   padding-left: 20px;
   border-radius: 4px;
   background-color: white;
@@ -22,9 +25,10 @@ body{
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.card-2{
+
+#card-2 {
   width: 515px;
-  box-shadow:20px 20px 50px grey;
+  box-shadow: 20px 20px 50px grey;
   padding-left: 20px;
   border-radius: 4px;
   background-color: white;
@@ -32,24 +36,25 @@ body{
   padding-top: 30px;
   position: relative;
   margin-bottom: 120px;
-  animation-name: slide-right;
-  animation-duration: 4s;
 }
-.container-3{
+
+.container-3 {
   display: flex;
   justify-content: flex-end;
   margin-right: 90px;
   font-family: 'Roboto', sans-serif;
 }
-.card-3{
+
+.card-3 {
   width: 520px;
-  box-shadow:20px 20px 50px grey;
+  box-shadow: 20px 20px 50px grey;
   border-radius: 4px;
   background-color: white;
   padding-bottom: 20px;
   position: relative;
 }
-.date1{
+
+.date1 {
   background-color: #FF4159;
   display: inline-block;
   color: white;
@@ -61,7 +66,8 @@ body{
   text-align: center;
   font-size: 18px;
 }
-.moreBtn{
+
+.moreBtn {
   width: 75px;
   height: 35px;
   color: white;
@@ -69,7 +75,8 @@ body{
   border: none;
   border-radius: 4px;
 }
-.date2{
+
+.date2 {
   background-color: #FF4159;
   display: inline-block;
   color: white;
@@ -81,7 +88,8 @@ body{
   text-align: center;
   font-size: 18px;
 }
-.pborder{
+
+.pborder {
   border-left: solid 4px;
   padding-left: 8px;
   border-color: #00628A;
@@ -89,7 +97,8 @@ body{
   font-size: 18px;
   margin-right: 70px;
 }
-.date3{
+
+.date3 {
   background-color: #FF4159;
   display: inline-block;
   color: white;
@@ -102,49 +111,54 @@ body{
   top: 0px;
   margin-top: 0px;
 }
-.card-1::after{
-  content:"";
-   width: 0;
-   height: 0;
-   border-top: 12px solid transparent;
-   border-bottom: 12px solid transparent;
-   position: absolute;
-   border-left: 12px solid white;
-   left: 540px;
-   bottom: 195px;
+
+.card-1::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  border-left: 12px solid white;
+  left: 540px;
+  bottom: 195px;
 }
-.card-2::after{
-  content:"";
-   width: 0;
-   height: 0;
-   border-top: 12px solid transparent;
-   border-bottom: 12px solid transparent;
-   position: absolute;
-   border-left: 12px solid white;
-   left: 535px;
-   bottom: 130px;
+
+#card-2::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  border-left: 12px solid white;
+  left: 535px;
+  bottom: 130px;
 }
-.main-container::after{
-    content:"";
-    position: fixed;
-    left: 50%;
-    bottom: 2%;
-    width: 7px;
-    height: 100%;
-    background-color: #005A84;
+
+.main-container::after {
+  content: "";
+  position: fixed;
+  left: 49%;
+  bottom: 2%;
+  width: 5px;
+  height: 100%;
+  background-color: #005A84;
 }
-.card-3::after{
-  content:"";
-   width: 0;
-   height: 0;
-   border-top: 12px solid transparent;
-   border-bottom: 12px solid transparent;
-   position: absolute;
-   border-right: 12px solid white;
-   right: 520px;
-   bottom: 310px;
+
+.card-3::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  border-right: 12px solid white;
+  right: 520px;
+  bottom: 310px;
 }
-.cardimg{
+
+.cardimg {
   background-image: url('https://i.ytimg.com/vi/Pj9c5F7lKzw/maxresdefault.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -153,64 +167,106 @@ body{
   height: 220px;
   margin-left: 0px;
 }
-.cardimg > h1{
+
+.cardimg>h1 {
   margin-top: 0px;
   color: white;
   position: absolute;
   top: 170px;
   left: 30px;
 }
-.card-3 > p{
+
+.card-3>p {
   margin-left: 20px;
   font-size: 18px;
   margin-right: 20px;
 }
-.card-3 button{
+
+.card-3 button {
   margin-left: 20px;
 }
-.card-1 > p{
+
+.card-1>p {
   font-size: 18px;
   margin-right: 40px;
 }
-.card-2 > h1{
+
+#card-2>h1 {
   margin-bottom: 35px;
 }
-.moreBtn:hover{
+
+.moreBtn:hover {
   opacity: .7;
 }
-#icon1{
+
+#icon1 {
   position: absolute;
-   left: 49.5%;
-   opacity: 1;
-   z-index: 4;
-   color: white;
-   font-size: 24px;
-   top: 50px;
+  left: 48.1%;
+  opacity: 1;
+  z-index: 2;
+  color: white;
+  font-size: 24px;
+  top: 50px;
+  border-radius: 50%;
+  background-color: #00628A;
+  padding: 5px
 }
-#icon2{
+
+#icon2 {
   position: absolute;
   font-size: 24px;
-  z-index: 4;
+  z-index: 2;
   color: white;
-  right: 49%;
+  right: 49.7%;
   top: 49%;
+  border-radius: 50%;
+  background-color: #00628A;
+  padding: 5px
 }
-#icon3{
-  z-index: 4;
+
+#icon3 {
+  z-index: 2;
   position: absolute;
   opacity: 1;
   color: white;
   font-size: 24px;
   top: 110%;
-  left: 49.5%;
+  left: 48.1%;
+  border-radius: 50%;
+  background-color: #00628A;
+  padding: 5px
 }
+
 @keyframes slide-right {
   0% {
     opacity: 0;
     transform: translateX(-100%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0%);
   }
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(-130%);
+  }
+}
+
+.slide-right {
+  animation-name: slide-right;
+  animation-duration: 3s;
+}
+
+.slide-left {
+  animation-name: slide-left;
+  animation-duration: 1s;
 }
